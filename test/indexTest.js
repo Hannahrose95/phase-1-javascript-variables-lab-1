@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 
 const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
-
+const companyName= 'Scuber'
 describe('index.js', function () {
   describe('companyName', function () {
     it('is set as Scuber', function () {
